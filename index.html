@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+
+     <link rel="stylesheet" href="/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><a href="/">Avinash's Portfolio</a></div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/index.html" class="active">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Avinash</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href=Avinash.Resume.pdf download>Download Resume</a></button>
+                    <button class="btn"><a href=https://github.com/AvinashBhalla target="_blank">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="/media/dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+
+
+
+
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footr-first">
+                <h3>Avinash's Developer Portfolio</h3>
+            </div>
+            <div class="footr-scnd"><i class='bx bxl-linkedin-square'></i></div>
+            <div class="footr-thrd"></div>
+            <div class="footr-frth"></div>
+            <div class="footr-ffth"></div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Content Editor', 'Web Designer', 'Learner'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSC309 Personal Website</title>
+    <link rel="stylesheet" href="second.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div>
+        <h1>Hello Visitors</h1>
+        <h1>Your Name</h1>
+        <h2>Your UTorID</h2>
+
+        <ul>
+            <li>A1 is worth 10%</li>
+            <li>A2 is worth 20%</li>
+            <li>A3 is worth 15%</li>
+        </ul>
+
+        <details>
+            <summary>Fact</summary>
+            <p style="font-weight: bold; text-decoration: underline;">Did you know?</p>
+            <p style="font-style: italic; text-decoration: line-through;">This sentence is hidden by default.</p>
+        </details>
+
+        <progress value="1" max="12" title="Programming on the web - CSC309">
+            CSC309 progress so far: 1/12 done
+        </progress>
+
+        <table>
+            <tr>
+                <th>Assignment</th>
+                <th>Due Date</th>
+                <th>Weight</th>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>2022-01-15</td>
+                <td>10%</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>2022-02-01</td>
+                <td>20%</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>2022-02-15</td>
+                <td>15%</td>
+            </tr>
+        </table>
+
+        <form action="/a1/submit/" method="post">
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="Enter your feedback here" required></textarea>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>----</option>
+                <option value="ca">Canada</option>
+                <option value="us">United States</option>
+            </select>
+
+            <label for="attachment">Attachment:</label>
+            <input type="file" id="attachment" name="attachment" required>
+
+            <label>
+                <input type="checkbox" name="acknowledge" required>
+                I agree to the terms and conditions
+            </label>
+
+            <input type="submit" value="Send Feedback">
+        </form>
+
+        <video controls>
+            <source src="erwin_speech.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <footer>
+            <a href="mailto:your.email@utoronto.ca?subject=Bug%20Found!&body=I%20found%20the%20following%20bug%20on%20your%20website">
+                Contact: your.email@utoronto.ca
+            </a>
+        </footer>
+    </div>
+
+</body>
+</html>
